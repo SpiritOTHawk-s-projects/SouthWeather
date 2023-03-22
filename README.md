@@ -1,7 +1,7 @@
 # SouthWeather app
 Open weather application for linux, based on [openweathermap](https://openweathermap.org).
 
-![apppreview](https://github.com/SpiritOTHawk-s-projects/SouthWeather/blob/master/appprew.webp)
+![apppreview](https://wlorigin.cf/files/appprew.jpg)
 
 # Badges
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
