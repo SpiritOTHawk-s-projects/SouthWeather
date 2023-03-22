@@ -42,7 +42,7 @@ async function getProcessInfo() {
     console.log(process.versions);
 };
 
-console.log("App ready! Loading application.");
+console.log("App ready! Creating window.");
 app.on('ready', createWindow);
 
 app.on('window-all-closed', () => {
