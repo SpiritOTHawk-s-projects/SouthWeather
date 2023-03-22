@@ -3,7 +3,8 @@ const path = require('path').join;
 const url = require('url').format;
 
 let win
-const iconPath = path(__dirname, 'icon.png');
+const iconPath = path(__dirname, 'docs/icons/icon.png');
+console.log(iconPath);
 
 async function createWindow() {
     win = new BrowserWindow({

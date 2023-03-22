@@ -1,6 +1,6 @@
 {
   "name": "SouthWeather",
-  "version": "1.0.0",
+  "version": "1.0.1-Preview",
   "description": "Open weather app for linux",
   "main": "index.js",
   "author": "SpiritOTHawk <support@wlorigin.cf>",
@@ -8,7 +8,7 @@
   "build": {
     "linux": {
       "category": "Network",
-      "icon": "icon.png",
+      "icon": "./docs/icons/icon.png",
       "target": [
         "AppImage",
         "deb",
@@ -16,12 +16,12 @@
       ]
     },
     "win": {
-      "icon": "icon.png"
+      "icon": "./docs/icons/icon.png"
     }
   },
   "homepage": "https://southweather.wlorigin.cf/",
   "bugs": {
-    "url": "https://github.com/WasteLand-Dev/WasteLand-Site-Application/issues"
+    "url": "https://github.com/SpiritOTHawk-s-projects/SouthWeather/issues"
   },
   "scripts": {
     "start": "electron --linux .",
