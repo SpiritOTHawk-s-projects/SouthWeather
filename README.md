@@ -21,7 +21,7 @@ Open weather application for linux, based on [openweathermap](https://openweathe
 
 ## Arch and distributions based on it.
 
-```sudo pacman -U WasteLand-1.1.0.pacman```
+```sudo pacman -U SouthWeather-1.0.0.pacman```
 
 ## Other
 
