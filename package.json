@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "electron --linux .",
-    "build": "electron-builder --win",
+    "build": "electron-builder --linux appimage",
     "builddebian": "electron-builder --linux deb",
     "buildpacman": "electron-builder --linux pacman"
   },
