@@ -1,0 +1,36 @@
+{
+  "name": "SouthWeather",
+  "version": "1.0.0",
+  "description": "Open weather app for linux",
+  "main": "index.js",
+  "author": "SpiritOTHawk <support@wlorigin.cf>",
+  "license": "ISC",
+  "build": {
+    "linux": {
+      "category": "Network",
+      "icon": "icon.png",
+      "target": [
+        "AppImage",
+        "deb",
+        "pacman"
+      ]
+    },
+    "win": {
+      "icon": "icon.png"
+    }
+  },
+  "homepage": "https://southweather.wlorigin.cf/",
+  "bugs": {
+    "url": "https://github.com/WasteLand-Dev/WasteLand-Site-Application/issues"
+  },
+  "scripts": {
+    "start": "electron --linux .",
+    "build": "electron-builder --win",
+    "builddebian": "electron-builder --linux deb",
+    "buildpacman": "electron-builder --linux pacman"
+  },
+  "devdependencies": {
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0"
+  }
+}

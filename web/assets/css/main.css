@@ -1,0 +1,106 @@
+body::before {
+    content: '';
+    position: fixed;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+    background: url('./img/background.webp') no-repeat;
+    filter: blur(2px);
+}
+body {margin: 0; padding: 0; box-sizing: border-box;  }
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8em;
+    font-weight: 700;
+    color: yellowgoldenrod;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+.container {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    color: lightgoldenrodyellow;
+}
+.misc {
+    background-color: #035427;
+    opacity: 0.75;
+    filter: blur(0.25px);
+    border-style: outset;
+    border-color: seagreen;
+    border-radius: 7.1px;
+    font-weight: 900;
+}
+.weather-img {
+    height: 50px;
+}
+.search {
+    width: 100%;
+    outline: none;
+    background-color: #1E261F;
+    opacity: 0.5;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    padding: 5px 0;
+
+}
+#temp {
+    text-align: center;
+    font-size: 125px;
+}
+.btn-change-bg {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.shadow {
+    box-shadow:         1px 1px 18px 0px rgba(50, 50, 50, 0.75);
+}
+.inp {
+    display: none;
+}
+.lab {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow:         8px 5px 0px 0px red;
+}
+.lab:hover {
+    box-shadow:         2px 2px 0px 0px red;
+}
+.highlighting {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
