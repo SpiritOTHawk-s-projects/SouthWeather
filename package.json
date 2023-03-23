@@ -1,6 +1,6 @@
 {
   "name": "SouthWeather",
-  "version": "1.0.1-Preview",
+  "version": "1.0.1",
   "description": "Open weather app for linux",
   "main": "index.js",
   "author": "SpiritOTHawk <support@wlorigin.cf>",
