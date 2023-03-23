@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  electron: ^23.1.4
+  electron: ^23.2.0
   electron-builder: ^23.6.0
 
 dependencies:
-  electron: 23.1.4
+  electron: 23.2.0
   electron-builder: 23.6.0
 
 packages:
@@ -713,8 +713,8 @@ packages:
       - supports-color
     dev: false
 
-  /electron/23.1.4:
-    resolution: {integrity: sha512-3Z6CpAPdhv6haYX9DTO7k0l6uAUreZM3/EngQYqGN3Gz7Fp0DPb/egt8BwR3ClG/jTlQM+PQ+5WkTK0eMjm07A==}
+  /electron/23.2.0:
+    resolution: {integrity: sha512-De9e21cri0QYct/w6tTNOnKyCt9RVKUw5F8PEN4FPzGR9tr6IT53uyt42uH754uJWrZeLMCAdoXy6/0GmMmYZA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true
