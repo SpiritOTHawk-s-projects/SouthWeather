@@ -1,6 +1,6 @@
 {
   "name": "SouthWeather",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Open weather app for linux",
   "main": "index.js",
   "author": "SpiritOTHawk <support@wlorigin.cf>",
@@ -14,9 +14,6 @@
         "deb",
         "pacman"
       ]
-    },
-    "win": {
-      "icon": "./docs/icons/icon.png"
     }
   },
   "homepage": "https://southweather.wlorigin.cf/",
@@ -30,7 +27,7 @@
     "buildpacman": "electron-builder --linux pacman"
   },
   "devdependencies": {
-    "electron": "^23.2.0",
-    "electron-builder": "^23.6.0"
+    "electron": "^27.1.2",
+    "electron-builder": "^24.9.1"
   }
 }
