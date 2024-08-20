@@ -1,5 +1,6 @@
 # SouthWeather app
 Open weather application for linux, based on [openweathermap.org](https://openweathermap.org).
+#### Moved to [Codeberg](https://codeberg.org/SpiritOTHawk/SouthWeather)
 
 ![apppreview](https://github.com/SpiritOTHawk-s-projects/SouthWeather/blob/master/docs/preview/appprew.webp)
 
